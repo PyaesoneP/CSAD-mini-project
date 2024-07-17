@@ -8,6 +8,10 @@ nav {
   align-items: center;
 }
 
+main {
+  height: 80vh;
+}
+
 #searchForm {
   display: flex;
   align-items: center;
@@ -36,8 +40,12 @@ button {
   border: 0px;
 }
 
-ul {
+#naviLinks {
   display: flex;
   gap: 20px;
   list-style: none;
+}
+
+footer {
+  background-color: teal;
 }
