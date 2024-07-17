@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#searchForm {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  aspect-ratio: 1/1;
+  width: 50px;
+  border: 1px solid red;
+}
+
+header {
+  display: flex;
+  background-color: grey;
+  border-radius: 10px;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+}
+
+#headerImg {
+  width: 150px;
+  border-radius: 20px;
+}
+
+button {
+  border: 0px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
