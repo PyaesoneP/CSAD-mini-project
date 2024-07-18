@@ -2,14 +2,25 @@ body {
   height: 100vh;
 }
 
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background-color: black;
+  color: white;
 }
 
 main {
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #searchForm {
@@ -20,7 +31,6 @@ main {
 #logo {
   aspect-ratio: 1/1;
   width: 50px;
-  border: 1px solid red;
 }
 
 header {
@@ -40,12 +50,32 @@ button {
   border: 0px;
 }
 
-#naviLinks {
+#navLinks {
+  width: 80vw;
   display: flex;
-  gap: 20px;
   list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+}
+#navLinks a {
+  color: white;
+  text-decoration: none;
 }
 
 footer {
   background-color: teal;
+}
+
+#topBrands {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  height: 25vw;
+  aspect-ratio: 1.2/1;
+  border: 1px solid black;
+  border-radius: 10px;
 }
