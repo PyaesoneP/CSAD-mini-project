@@ -90,6 +90,7 @@ footer {
 .herotextcard {
   margin-top: 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 100%), rgba(0, 0, 0, 0%));
+  padding-top: 20px;
 }
 .heroheader {
   color: white;
@@ -134,5 +135,33 @@ footer {
 #hero3 {
   background-image: url(./styles/pexels-xexusdesigner-777001.jpg);
   background-position: center;
+  background-size: contain;
+}
+
+.gridsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5vw;
+  background-color: black;
+}
+
+.gridcard {
+  width: 49.5vw;
+  aspect-ratio: 1 / 1;
+}
+#gridcard1 {
+  background-image: url(./styles/pexels-mayday-1365795.jpg);
+  background-size: contain;
+}
+#gridcard2 {
+  background-image: url(./styles/pexels-august-de-richelieu-4260485.jpg);
+  background-size: contain;
+}
+#gridcard3 {
+  background-image: url(./styles/pexels-tima-miroshnichenko-6499178.jpg);
+  background-size: contain;
+}
+#gridcard4 {
+  background-image: url(./styles/pexels-mediocrememories-2225618.jpg);
   background-size: contain;
 }
