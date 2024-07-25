@@ -1,4 +1,5 @@
 body {
+  font-family: "Roboto";
 }
 
 .roboto-light {
@@ -80,6 +81,40 @@ footer {
   border: 1px solid black;
   width: 100%;
   aspect-ratio: 16/9;
+}
+.herotextcard {
+  margin-top: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 100%), rgba(0, 0, 0, 0%));
+}
+.heroheader {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+.herolink {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.herolink:hover {
+  text-decoration: underline;
+}
+.herolink::after {
+  content: ">";
+  color: white;
+}
+.herosubheader {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 #hero1 {
   background-image: url(./styles/pexels-nickoloui-2473183.jpg);
